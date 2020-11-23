@@ -42,6 +42,14 @@ ul {
   list-style: none;
 }
 li {
-  margin-right: 30px;
+  width: 140px;
+  padding: 12px;
+}
+li:hover {
+  background-color: rgb(211, 211, 211);
+}
+a {
+  text-decoration: none;
+  color: #585858;
 }
 </style>
