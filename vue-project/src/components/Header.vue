@@ -30,7 +30,7 @@ header {
   font-size: 30px;
 }
 .header {
-  height: 50px;
+  height: 80px;
   display: flex;
   justify-content: space-around;
   align-items: center;
