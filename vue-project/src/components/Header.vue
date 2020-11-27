@@ -5,18 +5,26 @@
         <router-link to="/Home">Aoki Takashi's Portfolio</router-link>
       </div>
       <ul class="right-header">
-        <li class="About">
-          <router-link to="/About">About</router-link>
-        </li>
-        <li class="Works">
-          <router-link to="/Works">Works</router-link>
-        </li>
-        <li class="Skill">
-          <router-link to="/Skill">Skill</router-link>
-        </li>
-        <li class="Contact">
-          <router-link to="/Contact">Contact</router-link>
-        </li>
+        <router-link to="/About">
+          <li class="About">
+            About
+          </li>
+        </router-link>
+        <router-link to="/Works">
+          <li class="Works">
+            Works
+          </li>
+        </router-link>
+        <router-link to="/Skill">
+          <li class="Skill">
+            Skill
+          </li>
+        </router-link>
+        <router-link to="/Contact">
+          <li class="Contact">
+            Contact
+          </li>
+        </router-link>
       </ul>
     </div>
   </header>
@@ -30,7 +38,7 @@ header {
   font-size: 30px;
 }
 .header {
-  height: 50px;
+  height: 80px;
   display: flex;
   justify-content: space-around;
   align-items: center;

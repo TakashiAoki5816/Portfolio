@@ -1,20 +1,27 @@
 <template>
   <div id="app">
     <Header></Header>
+    <router-view/>
+    <Footer></Footer>
   </div>
 </template>
 
 <script>
-import Header from './components/Header.vue'
+import Header from './components/header.vue'
+import Footer from './components/footer.vue'
 
 export default {
   components: {
-    Header
+    Header,
+    Footer
   }
 }
 </script>
 
 <style>
+body, h1, p {
+  margin: 0;
+}
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
