@@ -19,10 +19,7 @@ export default {
 </script>
 
 <style>
-body {
-  margin: 0;
-}
-h1 {
+body, h1, p {
   margin: 0;
 }
 #app {

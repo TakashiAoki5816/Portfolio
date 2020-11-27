@@ -14,13 +14,13 @@
 <style>
 .wrapper {
   width: 100vw;
-  height: 100vh;
+  height: 87vh;
 }
 
 .main-image {
   position: relative;
   width: 100vw;
-  min-height: 100vh;
+  min-height: 87vh;
   background: url("../assets/main_img.jpeg");
   background-size:cover;
   background-repeat: no-repeat;
