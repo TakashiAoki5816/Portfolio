@@ -8,6 +8,11 @@
   <div class="content">
     <div class="left-content">
       <div class="profile">
+        <div class="left-profile">
+          <img src="../assets/profile-img.png">
+        </div>
+        <div class="right-profile">
+        </div>
       </div>
       <div class="mytwitter">
       </div>
@@ -50,7 +55,20 @@
 
 .profile {
   height: 50%;
+  display: flex;
   background: rgb(143, 237, 100);
+}
+
+.left-profile {
+  width: 50%;
+  height: 100%;
+  background: crimson;
+}
+
+.right-profile {
+  width: 50%;
+  height: 100%;
+  background: rgb(192, 182, 40);
 }
 
 .right-content {
