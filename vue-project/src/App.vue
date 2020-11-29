@@ -23,11 +23,6 @@ body, h1, h2, p {
   margin: 0;
 }
 
-.wrapper {
-  width: 100vw;
-  height: 87vh;
-}
-
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
