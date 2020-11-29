@@ -7,6 +7,10 @@
   </div>
   <div class="content">
     <div class="left-content">
+      <div class="profile">
+      </div>
+      <div class="mytwitter">
+      </div>
     </div>
     <div class="right-content">
     </div>
@@ -44,10 +48,20 @@
   background-color: chocolate;
 }
 
+.profile {
+  height: 50%;
+  background: rgb(143, 237, 100);
+}
+
 .right-content {
   width: 40%;
   height: 100%;
   background-color: cornflowerblue;
+}
+
+.mytwitter {
+  height: 50%;
+  background: rgb(148, 66, 141);
 }
 
 </style>
