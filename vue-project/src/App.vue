@@ -19,7 +19,7 @@ export default {
 </script>
 
 <style>
-body, h1, h2, p {
+body, h1, h2, h4, p {
   margin: 0;
 }
 
@@ -28,6 +28,5 @@ body, h1, h2, p {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
 }
 </style>
