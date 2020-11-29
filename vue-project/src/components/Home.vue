@@ -12,11 +12,6 @@
 </script>
 
 <style>
-.wrapper {
-  width: 100vw;
-  height: 87vh;
-}
-
 .main-image {
   position: relative;
   width: 100vw;
