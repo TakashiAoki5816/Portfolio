@@ -24,7 +24,7 @@
         </div>
       </div>
       <div class="mytwitter">
-        <h4 class="twitter">Twitter</h4>
+        <Timeline :id="user_id" sourceType="profile" :options="{ tweetLimit: '3' }"/>
       </div>
     </div>
     <div class="right-content">
@@ -145,6 +145,17 @@
 </template>
 
 <script>
+import { Timeline } from 'vue-tweet-embed'
+export default {
+  components: {
+    Timeline
+  },
+  data: function () {
+    return {
+      user_id: 'arfaben__5816'
+    }
+  }
+}
 </script>
 
 <style>
@@ -176,7 +187,7 @@
 }
 
 .profile {
-  height: 50%;
+  height: 40%;
   margin-bottom: 20px;
   display: flex;
   background: #fff;
@@ -205,7 +216,7 @@
 }
 
 .mytwitter {
-  height: 50%;
+  height: 60%;
   background: #fff;
   border-radius: 6px;
   box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.02);
