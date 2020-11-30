@@ -14,14 +14,13 @@
         <div class="right-profile">
           <h4 class="profile-title">Profile</h4>
           <p>はじめまして、青木 貴志と申します。</p>
-          <p>今年、3月に東京農業大学 地域環境科学部 造園科学科を卒業しました。</p><br>
-          <p>4年生の時にプログラミングの面白さにハマり、<br>造園ではなくエンジニアを目指すことに決意しました。</p><br>
+          <p>今年、3月に東京農業大学 地域環境科学部 <br>造園科学科を卒業しました。</p><br>
+          <p>4年生の時にプログラミングの面白さにハマり、造園ではなくエンジニアを目指すことに決意しました。</p><br>
           <p>趣味は、サッカー・フットサル・ランニング・自転車・プログラミング・音楽</p>
           <p>休日は、サッカーの大会やランニングなど、基本的に体を動かしています。</p><br>
-          <p>去年もIT業界を中心に就職活動を行っていましたが、</p>
-          <p>納得がいく就職活動ができなかったため、もう一度やり直しています。<br>（2020年11月30日現在）</p><br>
+          <p>去年もIT業界を中心に就職活動を行っていましたが、納得がいく就職活動ができなかったため、もう一度やり直しています。<br>（2020年11月30日現在）</p><br>
           <p>現在は日々、ポートフォリオのブラッシュアップ・技術力向上に励んでいます。</p>
-          <p>最近は、Vue.jsでポートフォリオサイトを作成しています。</p>
+          <p>最近は、Vue.jsでポートフォリオサイトを制作しています。</p>
         </div>
       </div>
       <div class="mytwitter">
@@ -60,7 +59,7 @@
           <p class="timeline-date">2019年2月</p>
           <div class="timeline-content">
             <p>株式会社 湘南造園でグリーンキーパー（芝生整備）のアルバイトを始める</p>
-            <p>友達と都内の日本庭園を巡る</p>
+            <p>友達と都内の日本庭園を巡ることにハマる</p>
           </div>
         </li>
         <li>
@@ -134,7 +133,7 @@
           </div>
         </li>
         <li>
-          <p class="timeline-date">2020年11月</p>
+          <p class="timeline-date">2020年11月（現在）</p>
           <div class="timeline-content">
             <p>Vue.jsでSPAのポートフォリオサイトを制作開始</p>
           </div>
@@ -151,7 +150,7 @@
 <style>
 .content-wrapper {
   width: 90vw;
-  height: 155vh;
+  height: 220vh;
   margin: 10px auto;
 }
 
@@ -171,20 +170,22 @@
 }
 
 .left-content {
-  width: 50%;
-  height: 140%;
+  width: 40%;
+  height: 201%;
+  margin-right: 20px;
 }
 
 .profile {
   height: 50%;
+  margin-bottom: 20px;
   display: flex;
-  background: rgb(140, 235, 145);
+  background: #fff;
   border-radius: 6px;
   box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.02);
 }
 
 .left-profile {
-  width: 25%;
+  width: 35%;
   height: 100%;
 }
 
@@ -193,7 +194,7 @@
 }
 
 .right-profile {
-  width: 75%;
+  width: 65%;
   height: 100%;
   text-align: left;
 }
@@ -205,7 +206,9 @@
 
 .mytwitter {
   height: 50%;
-  background: rgb(148, 66, 141);
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.02);
 }
 
 .twitter {
@@ -214,8 +217,8 @@
 }
 
 .right-content {
-  width: 50%;
-  height: 140%;
+  width: 60%;
+  height: 203%;
   background: #fff;
   border-radius: 6px;
   box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.02);
@@ -224,25 +227,26 @@
 .History {
   font-size: 3em;
   text-align: left;
+  margin-left: 50px;
 }
 
 .timeline > li {
   overflow: hidden;
-  margin: 0;
+  margin: 0px;
   position: relative;
 }
 
 .timeline-date {
   width: 110px;
   float: left;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 .timeline-content {
-  width: 85%;
+  width: 81%;
   float: left;
   border-left: 3px #e5e5d1 solid;
-  margin-top: 25px;
+  padding: 10px;
 }
 
 .timeline-content:before {
@@ -252,8 +256,7 @@
   background: #6fc173;
   position: absolute;
   left: 106px;
-  top: 24px;
+  top: 20px;
   border-radius: 100%;
 }
-
 </style>
