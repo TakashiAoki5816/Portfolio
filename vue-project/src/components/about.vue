@@ -66,13 +66,7 @@
         <li>
           <p class="timeline-date">2019年3月</p>
           <div class="timeline-content">
-            <p>友人の影響でプログラミングにハマる</p>
-          </div>
-        </li>
-        <li>
-          <p class="timeline-date">2019年3月</p>
-          <div class="timeline-content">
-            <p>プログラミングの面白さに惹かれ、エンジニアを目指すことに決める</p>
+            <p>友人の影響でプログラミングの面白さに惹かれ、エンジニアを目指すことに決める</p>
             <p>IT業界を中心に就職活動を始める</p>
             <p>本格的にプログラミングを学び始める（Progate、Udemy）</p>
           </div>
@@ -97,22 +91,14 @@
           <div class="timeline-content">
             <p>卒業論文発表</p>
             <p>今の自分は開発業務に携われるほどのスキルがないことを実感<br>
-            スクールに入って１からプログラミングを学び直したい・チーム開発を経験したいと思うようになる</p>
-          </div>
-        </li>
-        <li>
-          <p class="timeline-date">2020年1月</p>
-          <div class="timeline-content">
-            <p>卒業論文発表</p>
-            <p>今の自分は開発業務に携われるほどのスキルがないことを実感<br>
             スクールに入って１からプログラミングを学び直したい・チーム開発を経験したいと思うようになる<br>
-            6月から通えることが決まる</p>
+            6月からスクールに通うことが決まる</p>
           </div>
         </li>
         <li>
           <p class="timeline-date">2020年3月</p>
           <div class="timeline-content">
-            <p>東京農業大学 地域環境科学部　造園科学科を卒業</p>
+            <p>東京農業大学 地域環境科学部 造園科学科を卒業</p>
           </div>
         </li>
         <li>
@@ -126,7 +112,7 @@
           <p class="timeline-date">2020年6月</p>
           <div class="timeline-content">
             <p>プログラミングスクールに入学（2ヶ月半）</p>
-            <p>HTMLやCSS・Rubyなどといった基礎文法からCLI操作、Linuxコマンド、Git・Githubの使い方、<br>
+            <p>HTML・CSS・Rubyの基礎文法、CLI操作、Linuxコマンド、Git・Githubの使い方、<br>
             データベースの設計、Railsを使って簡単なアプリケーションの作成<br>
             チーム開発でフリマアプリの制作</p>
           </div>
@@ -150,7 +136,7 @@
         <li>
           <p class="timeline-date">2020年11月</p>
           <div class="timeline-content">
-            <p>Vue.jsを用いたSPAのポートフォリオサイトを制作開始</p>
+            <p>Vue.jsでSPAのポートフォリオサイトを制作開始</p>
           </div>
         </li>
       </ul>
@@ -165,6 +151,7 @@
 <style>
 .content-wrapper {
   width: 90vw;
+  height: 155vh;
   margin: 10px auto;
 }
 
@@ -185,7 +172,7 @@
 
 .left-content {
   width: 50%;
-  height: 100%;
+  height: 140%;
 }
 
 .profile {
@@ -228,13 +215,45 @@
 
 .right-content {
   width: 50%;
-  height: 100%;
-  background-color: cornflowerblue;
+  height: 140%;
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.02);
 }
 
 .History {
   font-size: 3em;
   text-align: left;
+}
+
+.timeline > li {
+  overflow: hidden;
+  margin: 0;
+  position: relative;
+}
+
+.timeline-date {
+  width: 110px;
+  float: left;
+  margin-top: 20px;
+}
+
+.timeline-content {
+  width: 85%;
+  float: left;
+  border-left: 3px #e5e5d1 solid;
+  margin-top: 25px;
+}
+
+.timeline-content:before {
+  content: '';
+  width: 12px;
+  height: 12px;
+  background: #6fc173;
+  position: absolute;
+  left: 106px;
+  top: 24px;
+  border-radius: 100%;
 }
 
 </style>
