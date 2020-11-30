@@ -6,22 +6,22 @@
       </div>
       <ul class="right-header">
         <router-link to="/About">
-          <li class="About">
+          <li class="header-link">
             About
           </li>
         </router-link>
         <router-link to="/Works">
-          <li class="Works">
+          <li class="header-link">
             Works
           </li>
         </router-link>
         <router-link to="/Skill">
-          <li class="Skill">
+          <li class="header-link">
             Skill
           </li>
         </router-link>
         <router-link to="/Contact">
-          <li class="Contact">
+          <li class="header-link">
             Contact
           </li>
         </router-link>
@@ -49,11 +49,11 @@ header {
 ul {
   list-style: none;
 }
-li {
+.header-link {
   width: 140px;
   padding: 12px;
 }
-li:hover {
+.header-link:hover {
   background-color: rgb(211, 211, 211);
 }
 a {
