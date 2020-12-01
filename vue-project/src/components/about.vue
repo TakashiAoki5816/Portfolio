@@ -129,8 +129,8 @@
           <div class="timeline-content">
             <p>ポートフォリオが完成</p>
             <p><span>あなたのお気に入りの庭園写真共有サイト</span><br>
-            【<a href="https://www.niwaai.com/"><span class="Niwaai-title">Niwaai</span></a>】
-            （<a href="https://github.com/TakashiAoki5816/niwaai"><span>GitHub</span></a>）</p>
+            【<a href="https://www.niwaai.com/" target="_blank" rel="noopener noreferrer"><span class="Niwaai-title">Niwaai</span></a>】
+            （<a href="https://github.com/TakashiAoki5816/niwaai" target="_blank" rel="noopener noreferrer"><span>GitHub</span></a>）</p>
             <p>2度目の就職活動をスタート</p>
           </div>
         </li>
