@@ -38,7 +38,7 @@ header {
   font-size: 30px;
 }
 .header {
-  height: 80px;
+  height: 66px;
   display: flex;
   justify-content: space-around;
   align-items: center;

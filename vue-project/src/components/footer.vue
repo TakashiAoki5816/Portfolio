@@ -14,9 +14,9 @@
 
 <style>
 .footer {
-  height: 30px;
+  height: 20px;
   text-align: center;
-  margin: 8px auto;
+  margin-top: 12px;
 }
 
 .footer span {
