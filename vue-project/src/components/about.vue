@@ -33,13 +33,13 @@
         <li>
           <p class="timeline-date">2016年4月</p>
           <div class="timeline-content">
-            <p><span>東京農業大学 地域環境科学部 造園科学科</span>に入学</p>
+            <p><span class="Niwaai-content">東京農業大学 地域環境科学部 造園科学科</span>に入学</p>
           </div>
         </li>
         <li>
           <p class="timeline-date">2016年5月</p>
           <div class="timeline-content">
-            <a href="https://www.instagram.com/isfjapan/?hl=ja"><span>世界学生フォーラム（ISF）</span></a>に所属
+            <a href="https://www.instagram.com/isfjapan/?hl=ja" target="_blank" rel="noopener noreferrer"><span>世界学生フォーラム（ISF）</span></a>に所属
           </div>
         </li>
         <li>
@@ -97,7 +97,7 @@
         <li>
           <p class="timeline-date">2020年3月</p>
           <div class="timeline-content">
-            <p><span>東京農業大学 地域環境科学部 造園科学科</span>を卒業</p>
+            <p><span class="Niwaai-content">東京農業大学 地域環境科学部 造園科学科</span>を卒業</p>
           </div>
         </li>
         <li>
@@ -128,9 +128,9 @@
           <p class="timeline-date">2020年10月</p>
           <div class="timeline-content">
             <p>ポートフォリオが完成</p>
-            <p><span>あなたのお気に入りの庭園写真共有サイト</span><br>
-            【<a href="https://www.niwaai.com/" target="_blank" rel="noopener noreferrer"><span class="Niwaai-title">Niwaai</span></a>】
-            （<a href="https://github.com/TakashiAoki5816/niwaai" target="_blank" rel="noopener noreferrer"><span>GitHub</span></a>）</p>
+            <a href="https://www.niwaai.com/" target="_blank" rel="noopener noreferrer"><span class="Niwaai-title">Niwaai</span></a>
+          （<a href="https://github.com/TakashiAoki5816/niwaai" target="_blank" rel="noopener noreferrer"><span>GitHub</span></a>）
+            <p>『<span class="Niwaai-content">あなたのお気に入りの日本庭園に出会おうを<br>コンセプトにした庭園写真共有サイト</span>』<br>
             <p>2度目の就職活動をスタート</p>
           </div>
         </li>
@@ -167,6 +167,10 @@ a, span {
 }
 
 .Niwaai-title {
+  color: #398a36;
+}
+
+.Niwaai-content {
   color: #398a36;
 }
 
