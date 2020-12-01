@@ -20,7 +20,7 @@
           <p>休日は、サッカーの大会やランニングなど、基本的に体を動かしています。</p><br>
           <p>去年もIT業界を中心に就職活動を行っていましたが、納得がいく就職活動ができなかったため、もう一度やり直しています。<br>（2020年11月30日現在）</p><br>
           <p>現在は日々、ポートフォリオのブラッシュアップ・技術力向上に励んでいます。</p>
-          <p>最近は、Vue.jsでポートフォリオサイトを制作しています。</p>
+          <p>最近は、Vue.jsでSPAのポートフォリオサイトを制作しています。</p>
         </div>
       </div>
       <div class="mytwitter">
@@ -33,13 +33,13 @@
         <li>
           <p class="timeline-date">2016年4月</p>
           <div class="timeline-content">
-            <p>東京農業大学 地域環境科学部 造園科学科に入学</p>
+            <p><span>東京農業大学 地域環境科学部 造園科学科</span>に入学</p>
           </div>
         </li>
         <li>
           <p class="timeline-date">2016年5月</p>
           <div class="timeline-content">
-            <a href="https://www.instagram.com/isfjapan/?hl=ja">世界学生フォーラム（ISF）に所属</a>
+            <a href="https://www.instagram.com/isfjapan/?hl=ja"><span>世界学生フォーラム（ISF）</span></a>に所属
           </div>
         </li>
         <li>
@@ -52,7 +52,7 @@
           <p class="timeline-date">2019年1月</p>
           <div class="timeline-content">
             <p>卒業論文の題目を決める</p>
-            <p>「横浜神奈川地域における明治初期からのスポーツフィールドならびに公共緑地の変遷」</p>
+            <p>「<span>横浜神奈川地域における明治初期からのスポーツフィールド<br>ならびに公共緑地の変遷</span>」</p>
           </div>
         </li>
         <li>
@@ -65,7 +65,7 @@
         <li>
           <p class="timeline-date">2019年3月</p>
           <div class="timeline-content">
-            <p>友人の影響でプログラミングの面白さに惹かれ、エンジニアを目指すことに決める</p>
+            <p>友人の影響でプログラミングの面白さに惹かれ、<br>エンジニアを目指すことに決める</p>
             <p>IT業界を中心に就職活動を始める</p>
             <p>本格的にプログラミングを学び始める（Progate、Udemy）</p>
           </div>
@@ -90,14 +90,14 @@
           <div class="timeline-content">
             <p>卒業論文発表</p>
             <p>今の自分は開発業務に携われるほどのスキルがないことを実感<br>
-            スクールに入って１からプログラミングを学び直したい・チーム開発を経験したいと思うようになる<br>
+            スクールに入って１からプログラミングを学び直したい、<br>チーム開発を経験したいと思うようになる<br>
             6月からスクールに通うことが決まる</p>
           </div>
         </li>
         <li>
           <p class="timeline-date">2020年3月</p>
           <div class="timeline-content">
-            <p>東京農業大学 地域環境科学部 造園科学科を卒業</p>
+            <p><span>東京農業大学 地域環境科学部 造園科学科</span>を卒業</p>
           </div>
         </li>
         <li>
@@ -110,25 +110,27 @@
         <li>
           <p class="timeline-date">2020年6月</p>
           <div class="timeline-content">
-            <p>プログラミングスクールに入学（2ヶ月半）</p>
-            <p>HTML・CSS・Rubyの基礎文法、CLI操作、Linuxコマンド、Git・Githubの使い方、<br>
-            データベースの設計、Railsを使って簡単なアプリケーションの作成<br>
+            <p><span>プログラミングスクール</span>に入学（2ヶ月半）</p>
+            <p>HTML・CSS・Rubyの基礎文法、CLI操作、Linuxコマンド、<br>Git・Githubの使い方、<br>
+            DB設計、Railsを使った簡単なアプリケーションの作成<br>
             チーム開発でフリマアプリの制作</p>
           </div>
         </li>
         <li>
           <p class="timeline-date">2020年8月</p>
           <div class="timeline-content">
-            <p>プログラミングスクールを卒業</p>
+            <p><span>プログラミングスクール</span>を卒業</p>
             <p>ポートフォリオの制作に取り掛かる</p>
+            <p>Docker・AWS・CircleCIについて学習する</p>
           </div>
         </li>
         <li>
           <p class="timeline-date">2020年10月</p>
           <div class="timeline-content">
             <p>ポートフォリオが完成</p>
-            <p>あなたのお気に入りの庭園写真共有サイト<br>
-            「<a href="https://www.niwaai.com/">Niwaai</a>」</p>
+            <p><span>あなたのお気に入りの庭園写真共有サイト</span><br>
+            【<a href="https://www.niwaai.com/"><span class="Niwaai-title">Niwaai</span></a>】
+            （<a href="https://github.com/TakashiAoki5816/niwaai"><span>GitHub</span></a>）</p>
             <p>2度目の就職活動をスタート</p>
           </div>
         </li>
@@ -159,6 +161,15 @@ export default {
 </script>
 
 <style>
+a, span {
+  color: rgb(29, 29, 29);
+  font-weight: bold;
+}
+
+.Niwaai-title {
+  color: #398a36;
+}
+
 .content-wrapper {
   width: 90vw;
   height: 220vh;
@@ -212,7 +223,8 @@ export default {
 
 .profile-title {
   font-size: 3em;
-  margin-bottom: 10px;
+  margin: 10px 0;
+  color: #4a4a4a;
 }
 
 .mytwitter {
@@ -220,11 +232,6 @@ export default {
   background: #fff;
   border-radius: 6px;
   box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.02);
-}
-
-.twitter {
-  text-align: left;
-  font-size: 3em;
 }
 
 .right-content {
@@ -238,7 +245,8 @@ export default {
 .History {
   font-size: 3em;
   text-align: left;
-  margin-left: 50px;
+  margin: 10px 0 10px 50px;
+  color: #4a4a4a;
 }
 
 .timeline > li {
@@ -270,4 +278,5 @@ export default {
   top: 20px;
   border-radius: 100%;
 }
+
 </style>
