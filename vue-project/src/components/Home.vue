@@ -14,7 +14,7 @@
 <style>
 .wrapper {
   width: 100vw;
-  height: 87vh;
+  height: 86vh;
 }
 
 .main-image {
