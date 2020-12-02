@@ -1,5 +1,5 @@
 <template>
-<div class="content-wrapper">
+<div class="about-wrapper">
   <div class="title-header">
     <div class="title">
       <h2>About</h2>
@@ -174,7 +174,7 @@ a, span {
   color: #398a36;
 }
 
-.content-wrapper {
+.about-wrapper {
   width: 90vw;
   height: 220vh;
   margin: 10px auto;
