@@ -11,7 +11,7 @@
         <a href="https://www.niwaai.com/" target="_blank" rel="noopener noreferrer"><img src="../assets/niwaai.png"></a>
       </div>
       <div class="content-title">
-        <h4>Aoki Takashi's Portfolio site</h4>
+        <h4>Aoki Takashi's Portfolio</h4>
       </div>
       <div class="content-explanation">
         <p>Vue.jsでSPAのポートフォリオサイト</p>
@@ -28,7 +28,7 @@
         <h4>Niwaai</h4>
       </div>
       <div class="content-explanation">
-        <p>「あなたのお気に入りの日本庭園に出会おう」をコンセプトにした庭園写真共有サイト</p>
+        <p>「あなたのお気に入りの日本庭園に出会おう」<br>をコンセプトにした庭園写真共有サイト</p>
       </div>
       <div class="content-github">
         <a href="https://github.com/TakashiAoki5816/niwaai" target="_blank" rel="noopener noreferrer">Github</a>
@@ -61,15 +61,13 @@
 .content-wrapper {
   width: 100%;
   height: 80%;
-  background: darkgreen;
   display: flex;
 }
 
 .content {
   width: 50%;
-  height: 100%;
-  background: darkmagenta;
-  padding-top: 100px;
+  height: auto;
+  margin: 100px 0;
 }
 
 .content-image img {
@@ -77,5 +75,13 @@
   height: auto;
 }
 
+.content-title {
+  margin: 10px 0 20px 0;
+  font-size: 1.4em;
+}
+
+.content-explanation {
+  margin-bottom: 10px;
+}
 
 </style>
