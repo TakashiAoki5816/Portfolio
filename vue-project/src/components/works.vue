@@ -11,6 +11,20 @@
         <a href="https://www.niwaai.com/" target="_blank" rel="noopener noreferrer"><img src="../assets/niwaai.png"></a>
       </div>
       <div class="content-title">
+        <h4>Aoki Takashi's Portfolio site</h4>
+      </div>
+      <div class="content-explanation">
+        <p>Vue.jsでSPAのポートフォリオサイト</p>
+      </div>
+      <div class="content-github">
+        <a href="https://github.com/TakashiAoki5816/Portfolio" target="_blank" rel="noopener noreferrer">Github</a>
+      </div>
+    </div>
+    <div class="content">
+      <div class="content-image">
+        <a href="https://www.niwaai.com/" target="_blank" rel="noopener noreferrer"><img src="../assets/niwaai.png"></a>
+      </div>
+      <div class="content-title">
         <h4>Niwaai</h4>
       </div>
       <div class="content-explanation">
@@ -19,9 +33,6 @@
       <div class="content-github">
         <a href="https://github.com/TakashiAoki5816/niwaai" target="_blank" rel="noopener noreferrer">Github</a>
       </div>
-    </div>
-    <div class="content">
-
     </div>
   </div>
 </div>
@@ -58,10 +69,13 @@
   width: 50%;
   height: 100%;
   background: darkmagenta;
+  padding-top: 100px;
 }
 
 .content-image img {
-  width: 90%;
+  width: 70%;
   height: auto;
 }
+
+
 </style>
