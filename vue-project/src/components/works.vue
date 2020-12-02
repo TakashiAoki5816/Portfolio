@@ -11,9 +11,10 @@
 
       </div>
       <div class="content-title">
+        <h4>Niwaai</h4>
       </div>
       <div class="content-explanation">
-
+        <p>あなたのお気に入りの日本庭園に出会おうをコンセプトにした庭園写真共有サイト</p>
       </div>
       <div class="content-github">
 

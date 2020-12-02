@@ -5,7 +5,7 @@
       <h2>About</h2>
     </div>
   </div>
-  <div class="content">
+  <div class="Content">
     <div class="left-content">
       <div class="profile">
         <div class="left-profile">
@@ -190,7 +190,7 @@ a, span {
   font-size: 4em;
 }
 
-.content {
+.Content {
   height: 100vh;
   display: flex;
 }
@@ -211,7 +211,7 @@ a, span {
 }
 
 .left-profile {
-  width: 35%;
+  width: 40%;
   height: 100%;
 }
 
@@ -220,7 +220,7 @@ a, span {
 }
 
 .right-profile {
-  width: 65%;
+  width: 70%;
   height: 100%;
   text-align: left;
 }
