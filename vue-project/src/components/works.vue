@@ -8,7 +8,7 @@
   <div class="content-wrapper">
     <div class="content">
       <div class="content-image">
-        <a href="https://www.niwaai.com/" target="_blank" rel="noopener noreferrer"><img src="../assets/niwaai.png"></a>
+        <a href="https://www.niwaai.com/" target="_blank" rel="noopener noreferrer"><img src="../assets/portfolio.png"></a>
       </div>
       <div class="content-title">
         <h4>Aoki Takashi's Portfolio</h4>
@@ -44,7 +44,7 @@
 <style>
 .works-wrapper {
   width: 90vw;
-  height: 100vh;
+  height: 90vh;
   margin: 10px auto;
 }
 
@@ -60,14 +60,17 @@
 
 .content-wrapper {
   width: 100%;
-  height: 80%;
+  height: 75%;
   display: flex;
+  background: url("../assets/white_wall.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
 }
 
 .content {
   width: 50%;
   height: auto;
-  margin: 100px 0;
+  margin: auto 0;
 }
 
 .content-image img {
