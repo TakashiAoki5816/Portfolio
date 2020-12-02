@@ -2,7 +2,7 @@
   <header>
     <div class= "header">
       <div class= "left-header">
-        <router-link to="/Home">Aoki Takashi's Portfolio</router-link>
+        <router-link to="/Home">HOME</router-link>
       </div>
       <ul class="right-header">
         <router-link to="/About">

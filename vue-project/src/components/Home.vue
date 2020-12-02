@@ -28,15 +28,18 @@
 
 .welcome {
   position: absolute;
-  top: 15%;
+  top: 17%;
   left: 50%;
+  width: 100%;
+  border-bottom: 1px solid #fff;
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
 
 .welcome h1 {
-  font-size: 4em;
+  font-size: 2.5em;
+  font-weight: bold;
   color: rgb(243, 243, 243);
 }
 </style>

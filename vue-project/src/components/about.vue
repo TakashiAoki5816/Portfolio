@@ -1,11 +1,11 @@
 <template>
-<div class="content-wrapper">
+<div class="about-wrapper">
   <div class="title-header">
     <div class="title">
       <h2>About</h2>
     </div>
   </div>
-  <div class="content">
+  <div class="Content">
     <div class="left-content">
       <div class="profile">
         <div class="left-profile">
@@ -17,8 +17,9 @@
           <p>今年、3月に東京農業大学 地域環境科学部 <br>造園科学科を卒業しました。</p><br>
           <p>4年生の時にプログラミングの面白さにハマり、造園ではなくエンジニアを目指すことに決意しました。</p><br>
           <p>趣味は、サッカー・フットサル・ランニング・自転車・プログラミング・音楽</p>
+          <p>トップページにもありますが、リバプールというサッカークラブを一番推しています！！</p>
           <p>休日は、サッカーの大会やランニングなど、基本的に体を動かしています。</p><br>
-          <p>去年もIT業界を中心に就職活動を行っていましたが、納得がいく就職活動ができなかったため、もう一度やり直しています。<br>（2020年11月30日現在）</p><br>
+          <p>去年もIT業界を中心に就職活動を行ってい<br>ましたが、納得がいく就職活動ができなかったため、もう一度やり直しています。<br>（2020年11月30日現在）</p><br>
           <p>現在は日々、ポートフォリオのブラッシュアップ・技術力向上に励んでいます。</p>
           <p>最近は、Vue.jsでSPAのポートフォリオサイトを制作しています。</p>
         </div>
@@ -174,9 +175,9 @@ a, span {
   color: #398a36;
 }
 
-.content-wrapper {
+.about-wrapper {
   width: 90vw;
-  height: 220vh;
+  height: 230vh;
   margin: 10px auto;
 }
 
@@ -190,7 +191,7 @@ a, span {
   font-size: 4em;
 }
 
-.content {
+.Content {
   height: 100vh;
   display: flex;
 }
@@ -202,7 +203,7 @@ a, span {
 }
 
 .profile {
-  height: 40%;
+  height: 45%;
   margin-bottom: 20px;
   display: flex;
   background: #fff;
@@ -211,7 +212,7 @@ a, span {
 }
 
 .left-profile {
-  width: 35%;
+  width: 40%;
   height: 100%;
 }
 
@@ -220,7 +221,7 @@ a, span {
 }
 
 .right-profile {
-  width: 65%;
+  width: 70%;
   height: 100%;
   text-align: left;
 }
@@ -240,7 +241,7 @@ a, span {
 
 .right-content {
   width: 60%;
-  height: 203%;
+  height: 213%;
   background: #fff;
   border-radius: 6px;
   box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.02);
