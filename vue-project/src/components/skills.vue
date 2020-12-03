@@ -14,20 +14,22 @@
       <div class="radar-chart">
        <frontend></frontend>
        <backend></backend>
+       <depops></depops>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import frontend from './front-end'
-import backend from './back-end'
-
+import frontend from './radar-charts/front-end'
+import backend from './radar-charts/back-end'
+import depops from './radar-charts/depops'
 
 export default {
   components: {
     frontend,
-    backend
+    backend,
+    depops
   }
 }
 </script>
@@ -43,14 +45,13 @@ export default {
 .skills-charts {
   height: 50vh;
   background-color: #fff;
-  margin: 10px auto;
+  margin: 20px 50px;
 }
 
 .radar-chart {
   display: flex;
-  width: 25vw;
-  height: 30vh;
-  margin: 30px auto;
+  width: 20vw;
+  height: 15vh;
 }
 
 </style>
