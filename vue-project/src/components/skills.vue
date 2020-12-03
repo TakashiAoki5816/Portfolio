@@ -13,6 +13,7 @@
     <div class="skills-charts">
       <div class="radar-chart">
        <frontend></frontend>
+       <backend></backend>
       </div>
     </div>
   </div>
@@ -20,10 +21,13 @@
 
 <script>
 import frontend from './front-end'
+import backend from './back-end'
+
 
 export default {
   components: {
-    frontend
+    frontend,
+    backend
   }
 }
 </script>
@@ -43,6 +47,7 @@ export default {
 }
 
 .radar-chart {
+  display: flex;
   width: 25vw;
   height: 30vh;
   margin: 30px auto;
