@@ -1,16 +1,21 @@
 <template>
-  <div class="skill-wrapper">
+  <div class="skills-wrapper">
     <div class="title-header">
       <div class="title">
         <h2>Skills</h2>
       </div>
+    </div>
+    <div class="skill-sentences">
+      <p>今までに学習してきた言語・スキルについて公開します</p>
+      <p>広く浅くではありますが、最近は様々な言語についての知見を深めることを意識しています</p>
+      <p>今後は、様々な言語についての知見を深めながら、少しずつ専門性を高めていきたいです</p>
     </div>
   </div>
 </template>
 <script>
 </script>
 <style>
-.skill-wrapper {
+.skills-wrapper {
   width: 90vw;
   height: 80vh;
   margin: 10px auto;

@@ -15,7 +15,7 @@
             Works
           </li>
         </router-link>
-        <router-link to="/Skill">
+        <router-link to="/Skills">
           <li class="header-link">
             Skills
           </li>
