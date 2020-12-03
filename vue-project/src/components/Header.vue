@@ -17,7 +17,7 @@
         </router-link>
         <router-link to="/Skill">
           <li class="header-link">
-            Skill
+            Skills
           </li>
         </router-link>
         <router-link to="/Contact">

@@ -2,7 +2,7 @@
   <div class="skill-wrapper">
     <div class="title-header">
       <div class="title">
-        <h2>Skill</h2>
+        <h2>Skills</h2>
       </div>
     </div>
   </div>
