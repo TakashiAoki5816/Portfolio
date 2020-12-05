@@ -2,7 +2,7 @@
   <header>
     <div class= "header">
       <div class= "left-header">
-        <router-link to="/Home">HOME</router-link>
+        <router-link to="/Home"><img src="../assets/logo.png"></router-link>
       </div>
       <ul class="right-header">
         <router-link to="/About">
@@ -42,6 +42,7 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 .right-header {
   display: flex;
@@ -54,7 +55,7 @@ ul {
   padding: 12px;
 }
 .header-link:hover {
-  background-color: rgb(211, 211, 211);
+  background-color: rgb(255, 255, 255, .8);
 }
 a {
   text-decoration: none;
