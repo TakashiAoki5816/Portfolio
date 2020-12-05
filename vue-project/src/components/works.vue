@@ -62,9 +62,6 @@
   width: 100%;
   height: 75%;
   display: flex;
-  background: url("../assets/white_wall.jpg");
-  background-size:cover;
-  background-repeat: no-repeat;
 }
 
 .content {
