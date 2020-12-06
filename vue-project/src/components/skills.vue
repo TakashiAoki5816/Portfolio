@@ -44,14 +44,14 @@ export default {
 
 .skills-charts {
   height: 50vh;
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
   margin: 20px 50px;
 }
 
 .radar-chart {
   display: flex;
-  width: 20vw;
-  height: 15vh;
+  width: 50vw;
+  height: 50vh;
 }
 
 </style>
