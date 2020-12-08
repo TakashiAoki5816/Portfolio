@@ -36,10 +36,15 @@
 <style>
 header {
   font-size: 30px;
+  height: 66px;
+  width: 100%;
 }
 .header {
+  width: 100%;
   height: 66px;
   display: flex;
+  position: fixed;
+  z-index: 10;
   justify-content: space-around;
   align-items: center;
   background-color: rgba(255, 255, 255, 0.8);
