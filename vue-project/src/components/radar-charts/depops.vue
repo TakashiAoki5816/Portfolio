@@ -8,11 +8,11 @@ export default {
     return {
       type: 'radar',
       data: {
-        labels: ['Git/Github', 'Docker', 'AWS', 'Linux'],
+        labels: ['Linux', 'Docker', 'AWS', 'GitHub'],
         datasets: [
           {
             label: 'DepOps',
-            data: [3, 2, 2, 2],
+            data: [2, 2, 2, 3],
             backgroundColor: [
               'rgba(255, 219, 100, 0.2)'
             ],

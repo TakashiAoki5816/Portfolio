@@ -38,20 +38,34 @@ export default {
 <style>
 .skills-wrapper {
   width: 90vw;
-  height: auto;
+  height: 85vh;
   margin: 10px auto;
-  background-color: darkorange;
+}
+
+.title-header {
+  height: auto;
+  display: flex;
+  justify-content: start;
+}
+
+.title {
+  font-size: 4em;
+}
+
+.skills-sentences {
+  text-align: left;
 }
 
 .skills-charts {
   display: flex;
-  height: 55vh;
+  height: auto;
   background-color: rgb(255, 255, 255);
-  margin: 20px 50px;
+  margin: 20px 0;
 }
 
 .skills-explanation {
-  height: 150px;
+  height: 80px;
+  text-align: left;
 }
 
 </style>
