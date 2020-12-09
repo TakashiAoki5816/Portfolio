@@ -53,7 +53,7 @@
           <p class="timeline-date">2019年1月</p>
           <div class="timeline-content">
             <p>卒業論文の題目を決める</p>
-            <p>「<span>横浜神奈川地域における明治初期からのスポーツフィールド<br>ならびに公共緑地の変遷</span>」</p>
+            <p>「<span class="sentense">横浜神奈川地域における明治初期からのスポーツフィールド<br>ならびに公共緑地の変遷</span>」</p>
           </div>
         </li>
         <li>
@@ -111,7 +111,7 @@
         <li>
           <p class="timeline-date">2020年6月</p>
           <div class="timeline-content">
-            <p><span>プログラミングスクール</span>に入学（2ヶ月半）</p>
+            <p><span class="sentense">プログラミングスクール</span>に入学（2ヶ月半）</p>
             <p>HTML・CSS・Rubyの基礎文法、CLI操作、Linuxコマンド、<br>Git・Githubの使い方、<br>
             DB設計、Railsを使った簡単なアプリケーションの作成<br>
             チーム開発でフリマアプリの制作</p>
@@ -120,7 +120,7 @@
         <li>
           <p class="timeline-date">2020年8月</p>
           <div class="timeline-content">
-            <p><span>プログラミングスクール</span>を卒業</p>
+            <p><span class="sentense">プログラミングスクール</span>を卒業</p>
             <p>ポートフォリオの制作に取り掛かる</p>
             <p>Docker・AWS・CircleCIについて学習する</p>
           </div>
@@ -164,6 +164,9 @@ export default {
 <style>
 a, span {
   color: rgb(29, 29, 29);
+}
+
+.sentense {
   font-weight: bold;
 }
 
@@ -173,11 +176,12 @@ a, span {
 
 .Niwaai-content {
   color: #398a36;
+  font-weight: bold;
 }
 
 .about-wrapper {
   width: 90vw;
-  height: 230vh;
+  height: 235vh;
   margin: 10px auto;
 }
 
@@ -198,7 +202,7 @@ a, span {
 
 .left-content {
   width: 40%;
-  height: 201%;
+  height: 190%;
   margin-right: 20px;
 }
 
@@ -241,7 +245,7 @@ a, span {
 
 .right-content {
   width: 60%;
-  height: 213%;
+  height: 217%;
   background: #fff;
   border-radius: 6px;
   box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.02);

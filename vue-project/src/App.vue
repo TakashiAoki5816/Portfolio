@@ -24,7 +24,7 @@ body, h1, h2, h4, p {
 }
 
 h2 {
-  color: #a74848;
+  color: #45a342;
 }
 
 #app {
@@ -32,5 +32,6 @@ h2 {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
+  background: url("../src/assets/background.jpg");
 }
 </style>

@@ -1,10 +1,9 @@
 <template>
   <div class="wrapper">
-    <div class="main-image">
+    <img src="../assets/mv.jpg" class="main-img">
       <div class="welcome">
         <h1>Welcome to Aoki Takashi's Portfolio Site</h1>
       </div>
-    </div>
   </div>
 </template>
 
@@ -17,18 +16,15 @@
   height: 86vh;
 }
 
-.main-image {
+.main-img {
   position: relative;
   width: 100vw;
-  min-height: 87vh;
-  background: url("../assets/main_img.jpeg");
-  background-size:cover;
-  background-repeat: no-repeat;
+  height: 100%;
 }
 
 .welcome {
   position: absolute;
-  top: 17%;
+  top: 18%;
   left: 50%;
   width: 100%;
   border-bottom: 1px solid #fff;
@@ -38,8 +34,8 @@
 }
 
 .welcome h1 {
-  font-size: 2.5em;
+  font-size: 3.0em;
   font-weight: bold;
-  color: rgb(243, 243, 243);
+  color: #fff;
 }
 </style>
