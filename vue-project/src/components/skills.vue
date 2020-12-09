@@ -5,18 +5,25 @@
         <h2>Skills</h2>
       </div>
     </div>
-    <div class="skills-sentences">
-      <p>今までに学習してきた言語・スキルです</p>
-      <p>広く浅くではありますが、最近は様々な言語についての知見を深めることを意識しています</p>
-      <p>今後は、様々な言語についての知見を深めながら、少しずつ専門性を高めていきたいです</p>
-    </div>
     <div class="skills-charts">
-       <frontend></frontend>
-       <backend></backend>
-       <depops></depops>
-    </div>
-    <div class="skills-explanation">
-      <p>チャートの見方としては「1：軽く学習した程度」、「2：数ヶ月以上学習しているがもう少し習熟が必要」、「3：簡単なCRUDアプリを制作できる、基本的なサービスは扱うことができる」</p>
+      <div class="skills-sentences">
+        <p>今までに学習してきた言語・スキルです。広く浅くではありますが、最近は様々な言語についての知見を深めることを意識しています</p>
+        <p>今後は、様々な言語についての知見を深めながら、少しずつ専門性を高めていきたいです</p>
+      </div>
+      <div class="radar-charts">
+        <div class="frontend">
+          <frontend></frontend>
+        </div>
+        <div class="backend">
+        <backend></backend>
+        </div>
+        <div class="depops">
+        <depops></depops>
+        </div>
+      </div>
+      <div class="skills-explanation">
+        <p>チャートの見方としては「1：軽く触ったことがある、学習した程度」、「2：数ヶ月以上学習しているがもう少し習熟が必要」、「3：簡単なCRUDアプリを制作できる、基本的なサービスは扱うことができる」</p>
+      </div>
     </div>
   </div>
 </template>
@@ -38,8 +45,15 @@ export default {
 <style>
 .skills-wrapper {
   width: 90vw;
-  height: 85vh;
+  height: auto;
   margin: 10px auto;
+}
+
+.skills-charts {
+  margin-top: 10px;
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.02);
 }
 
 .title-header {
@@ -54,18 +68,30 @@ export default {
 
 .skills-sentences {
   text-align: left;
+  margin-bottom: 40px;
+  line-height: 1.5em;
+  padding: 15px;
 }
 
-.skills-charts {
+.radar-charts {
   display: flex;
   height: auto;
-  background-color: rgb(255, 255, 255);
   margin: 20px 0;
 }
 
+.frontend {
+  margin: 0 30px 0 15px;
+}
+
+.backend {
+  margin-right: 30px;
+}
+
 .skills-explanation {
-  height: 80px;
+  height: 70px;
   text-align: left;
+  margin-top: 40px;
+  padding: 15px;
 }
 
 </style>
