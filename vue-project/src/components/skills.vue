@@ -6,16 +6,17 @@
       </div>
     </div>
     <div class="skills-sentences">
-      <p>今までに学習してきた言語・スキルについて公開します</p>
+      <p>今までに学習してきた言語・スキルです</p>
       <p>広く浅くではありますが、最近は様々な言語についての知見を深めることを意識しています</p>
       <p>今後は、様々な言語についての知見を深めながら、少しずつ専門性を高めていきたいです</p>
     </div>
     <div class="skills-charts">
-      <div class="radar-chart">
        <frontend></frontend>
        <backend></backend>
        <depops></depops>
-      </div>
+    </div>
+    <div class="skills-explanation">
+      <p>チャートの見方としては「1：軽く学習した程度」、「2：数ヶ月以上学習しているがもう少し習熟が必要」、「3：簡単なCRUDアプリを制作できる、基本的なサービスは扱うことができる」</p>
     </div>
   </div>
 </template>
@@ -37,21 +38,20 @@ export default {
 <style>
 .skills-wrapper {
   width: 90vw;
-  height: 80vh;
+  height: auto;
   margin: 10px auto;
   background-color: darkorange;
 }
 
 .skills-charts {
-  height: 50vh;
+  display: flex;
+  height: 55vh;
   background-color: rgb(255, 255, 255);
   margin: 20px 50px;
 }
 
-.radar-chart {
-  display: flex;
-  width: 50vw;
-  height: 50vh;
+.skills-explanation {
+  height: 150px;
 }
 
 </style>
