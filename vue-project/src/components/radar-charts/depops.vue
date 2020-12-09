@@ -25,6 +25,9 @@ export default {
       },
       options: {
         scale: {
+          pointLabels: {
+            fontSize: 13 // レーダーチャートのラベルを変更
+          },
           ticks: {
             min: 0,
             max: 5,
