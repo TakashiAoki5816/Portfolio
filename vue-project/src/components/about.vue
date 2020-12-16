@@ -8,20 +8,21 @@
   <div class="Content">
     <div class="left-content">
       <div class="profile">
-        <div class="left-profile">
+        <div class="top-profile">
+          <h4 class="profile-title">Profile</h4>
           <img src="../assets/profile-img.png" class="profile-img">
         </div>
-        <div class="right-profile">
-          <h4 class="profile-title">Profile</h4>
+        <div class="content-profile">
           <p>はじめまして、青木 貴志と申します。</p>
-          <p>今年、3月に東京農業大学 地域環境科学部 <br>造園科学科を卒業しました。</p><br>
+          <p>今年、3月に東京農業大学 地域環境科学部 造園科学科を卒業しました。</p><br>
           <p>4年生の時にプログラミングの面白さにハマり、造園ではなくエンジニアを目指すことに決意しました。</p><br>
-          <p>趣味は、サッカー・フットサル・ランニング・自転車・プログラミング・音楽</p>
-          <p>トップページにもありますが、リバプールというサッカークラブを一番推しています！！</p>
+          <p>趣味は、サッカー・フットサル・サッカー観戦・ランニング・自転車・プログラミング・音楽</p>
           <p>休日は、サッカーの大会やランニングなど、基本的に体を動かしています。</p><br>
           <p>去年もIT業界を中心に就職活動を行ってい<br>ましたが、納得がいく就職活動ができなかったため、もう一度やり直しています。<br>（2020年11月30日現在）</p><br>
           <p>現在は日々、ポートフォリオのブラッシュアップ・技術力向上に励んでいます。</p>
-          <p>最近は、Vue.jsでSPAのポートフォリオサイトを制作しています。</p>
+          <p>最近は、Vue.jsでSPAのポートフォリオサイトを制作しています。</p><br>
+          <p>- Twitter:<a href="https://twitter.com/arfaben__5816" class="twitter"> https://twitter.com/arfaben__5816</a></p>
+          <p>- GitHub:<a href="https://github.com/TakashiAoki5816" class="github"> https://github.com/TakashiAoki5816</a></p>
         </div>
       </div>
       <div class="mytwitter">
@@ -207,32 +208,36 @@ a, span {
 }
 
 .profile {
-  height: 45%;
+  height: 53%;
   margin-bottom: 20px;
-  display: flex;
   background: #fff;
   border-radius: 6px;
   box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.02);
 }
 
-.left-profile {
-  width: 40%;
-  height: 100%;
+.top-profile {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .profile-img {
-  margin-top: 30px
+  width: 200px;
+  height: 180px;
+  margin-top: 20px;
+  margin-right: 30px;
 }
 
-.right-profile {
-  width: 70%;
-  height: 100%;
+.content-profile {
   text-align: left;
+  height: 100%;
+  padding: 20px;
 }
 
 .profile-title {
   font-size: 3em;
-  margin: 10px 0;
+  margin: 10px 20px;
   color: #4a4a4a;
 }
 
