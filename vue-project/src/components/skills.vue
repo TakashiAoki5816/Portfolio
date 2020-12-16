@@ -50,7 +50,6 @@ export default {
 }
 
 .skills-charts {
-  margin-top: 10px;
   background-color: #fff;
   border-radius: 6px;
   box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.02);

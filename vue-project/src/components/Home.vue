@@ -27,7 +27,7 @@
   top: 18%;
   left: 50%;
   width: 100%;
-  border-bottom: 1px solid #fff;
+  border-bottom: 3px solid #fff;
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);

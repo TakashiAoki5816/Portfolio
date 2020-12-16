@@ -181,7 +181,7 @@ a, span {
 
 .about-wrapper {
   width: 90vw;
-  height: 235vh;
+  height: 265vh;
   margin: 10px auto;
 }
 
