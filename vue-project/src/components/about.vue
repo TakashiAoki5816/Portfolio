@@ -21,8 +21,8 @@
           <p>去年もIT業界を中心に就職活動を行ってい<br>ましたが、納得がいく就職活動ができなかったため、もう一度やり直しています。<br>（2020年11月30日現在）</p><br>
           <p>現在は日々、ポートフォリオのブラッシュアップ・技術力向上に励んでいます。</p>
           <p>最近は、Vue.jsでSPAのポートフォリオサイトを制作しています。</p><br>
-          <p>- Twitter:<a href="https://twitter.com/arfaben__5816" class="twitter"> https://twitter.com/arfaben__5816</a></p>
-          <p>- GitHub:<a href="https://github.com/TakashiAoki5816" class="github"> https://github.com/TakashiAoki5816</a></p>
+          <p>- Twitter:<a href="https://twitter.com/arfaben__5816" class="bluelink" target="_blank" rel="noopener noreferrer"> https://twitter.com/arfaben__5816</a></p>
+          <p>- GitHub:<a href="https://github.com/TakashiAoki5816" class="bluelink" target="_blank" rel="noopener noreferrer"> https://github.com/TakashiAoki5816</a></p>
         </div>
       </div>
       <div class="mytwitter">
@@ -167,6 +167,10 @@ a, span {
   color: rgb(29, 29, 29);
 }
 
+.bluelink {
+  color: #039be5;
+}
+
 .sentense {
   font-weight: bold;
 }
@@ -182,7 +186,7 @@ a, span {
 
 .about-wrapper {
   width: 90vw;
-  height: 265vh;
+  height: 275vh;
   margin: 10px auto;
 }
 
