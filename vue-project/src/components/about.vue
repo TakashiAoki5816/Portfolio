@@ -167,10 +167,6 @@ a, span {
   color: rgb(29, 29, 29);
 }
 
-.bluelink {
-  color: #039be5;
-}
-
 .sentense {
   font-weight: bold;
 }

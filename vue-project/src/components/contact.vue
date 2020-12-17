@@ -1,5 +1,5 @@
 <template>
-  <div class="wrapper">
+  <div class="contact-wrapper">
     <div class="title-header">
       <div class="title">
         <h2>Contact</h2>
@@ -7,9 +7,9 @@
     </div>
     <img src="../assets/profile-img.png" class="contact-img">
     <div class="contact-content">
-      <p>ここまでポートフォリオサイトを見てくださり、ありがとうございます。</p>
-      <p>もし、ご連絡・ご用件等ありましたらTwitterのDMまでよろしくお願いします。</p>
-      <p><a href="https://twitter.com/arfaben__5816" class="bluelink" target="_blank" rel="noopener noreferrer">Twitter</a></p>
+      <p>ここまでポートフォリオサイトを見てくださり、ありがとうございました。</p>
+      <p>もし、私についてご連絡・コメント等ありましたらTwitterのDMまでよろしくお願いします。</p>
+      <p class="twitter-link">Twitter:<a href="https://twitter.com/arfaben__5816" class="bluelink" target="_blank" rel="noopener noreferrer"> https://twitter.com/arfaben__5816</a></p>
     </div>
   </div>
 </template>
@@ -18,4 +18,23 @@
 </script>
 
 <style>
+.contact-wrapper {
+  width: 90vw;
+  height: 84vh;
+  margin: 10px auto;
+}
+
+.contact-img {
+  height: 250px;
+  width: 250px;
+}
+
+.contact-content {
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+.twitter-link {
+  margin-top: 20px;
+}
 </style>

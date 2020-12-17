@@ -43,6 +43,10 @@ h2 {
   font-size: 4em;
 }
 
+.bluelink {
+  color: #039be5;
+}
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
