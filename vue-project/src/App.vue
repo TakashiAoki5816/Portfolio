@@ -27,6 +27,12 @@ h2 {
   color: #45a342;
 }
 
+.wrapper {
+  width: 90vw;
+  height: 90vh;
+  margin: 10px auto;
+}
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

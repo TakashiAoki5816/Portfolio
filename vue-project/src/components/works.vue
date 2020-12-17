@@ -1,5 +1,5 @@
 <template>
-<div class="works-wrapper">
+<div class="wrapper">
   <div class="title-header">
     <div class="title">
       <h2>Works</h2>
@@ -42,12 +42,6 @@
 </script>
 
 <style>
-.works-wrapper {
-  width: 90vw;
-  height: 90vh;
-  margin: 10px auto;
-}
-
 .title-header {
   height: auto;
   display: flex;
