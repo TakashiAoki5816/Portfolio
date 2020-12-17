@@ -190,16 +190,6 @@ a, span {
   margin: 10px auto;
 }
 
-.title-header {
-  height: auto;
-  display: flex;
-  justify-content: start;
-}
-
-.title {
-  font-size: 4em;
-}
-
 .Content {
   height: 100vh;
   display: flex;

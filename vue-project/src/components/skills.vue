@@ -55,16 +55,6 @@ export default {
   box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.02);
 }
 
-.title-header {
-  height: auto;
-  display: flex;
-  justify-content: start;
-}
-
-.title {
-  font-size: 4em;
-}
-
 .skills-sentences {
   text-align: left;
   margin-bottom: 40px;

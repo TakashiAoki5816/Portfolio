@@ -12,13 +12,4 @@
 </script>
 
 <style>
-.title-header {
-  height: auto;
-  display: flex;
-  justify-content: start;
-}
-
-.title {
-  font-size: 4em;
-}
 </style>

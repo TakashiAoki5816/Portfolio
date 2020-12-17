@@ -33,6 +33,16 @@ h2 {
   margin: 10px auto;
 }
 
+.title-header {
+  height: auto;
+  display: flex;
+  justify-content: start;
+}
+
+.title {
+  font-size: 4em;
+}
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
