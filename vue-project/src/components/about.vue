@@ -226,9 +226,9 @@ a, span {
 }
 
 .profile-title {
-  font-size: 3em;
+  font-size: 3.2em;
   margin: 10px 20px;
-  color: #4a4a4a;
+  color: #585858;
 }
 
 .mytwitter {
@@ -247,7 +247,7 @@ a, span {
 }
 
 .History {
-  font-size: 3em;
+  font-size: 3.2em;
   text-align: left;
   margin: 10px 0 10px 50px;
   color: #4a4a4a;

@@ -65,7 +65,7 @@ ul {
 
 a {
  text-decoration: none;
- color: #585858;
+ color: #1d1d1d;
 }
 
 .right-header a:hover {
