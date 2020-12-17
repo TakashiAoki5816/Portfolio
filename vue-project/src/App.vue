@@ -27,12 +27,6 @@ h2 {
   color: #45a342;
 }
 
-.wrapper {
-  width: 90vw;
-  height: 90vh;
-  margin: 10px auto;
-}
-
 .title-header {
   height: auto;
   display: flex;
