@@ -62,12 +62,13 @@ ul {
 .header-link:hover {
   background-color: rgba(52, 180, 58, 0.8);
 }
+
 a {
-  text-decoration: none;
-  color: #585858;
+ text-decoration: none;
+ color: #585858;
 }
 
-a:hover {
-  color: #fff;
+.right-header a:hover {
+ color: #fff;
 }
 </style>
