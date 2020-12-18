@@ -17,7 +17,7 @@
         <p>Vue.jsでSPAのポートフォリオサイト</p>
       </div>
       <div class="content-github">
-        <a href="https://github.com/TakashiAoki5816/Portfolio" target="_blank" rel="noopener noreferrer">Github</a>
+        <a href="https://github.com/TakashiAoki5816/Portfolio" target="_blank" class="portfolio-link" rel="noopener noreferrer">Github</a>
       </div>
     </div>
     <div class="content">
@@ -31,7 +31,7 @@
         <p>「あなたのお気に入りの日本庭園に出会おう」<br>をコンセプトにした庭園写真共有サイト</p>
       </div>
       <div class="content-github">
-        <a href="https://github.com/TakashiAoki5816/niwaai" target="_blank" rel="noopener noreferrer">Github</a>
+        <a href="https://github.com/TakashiAoki5816/niwaai" target="_blank" class="portfolio-link" rel="noopener noreferrer">Github</a>
       </div>
     </div>
   </div>
@@ -44,18 +44,8 @@
 <style>
 .works-wrapper {
   width: 90vw;
-  height: 90vh;
+  height: 84vh;
   margin: 10px auto;
-}
-
-.title-header {
-  height: auto;
-  display: flex;
-  justify-content: start;
-}
-
-.title {
-  font-size: 4em;
 }
 
 .content-wrapper {
@@ -66,13 +56,19 @@
 
 .content {
   width: 50%;
-  height: auto;
+  height: 320px;
   margin: auto 0;
 }
 
 .content-image img {
   width: 70%;
   height: auto;
+}
+
+.content-image img:hover {
+  width: 75%;
+  height: auto;
+  box-shadow: 1px 1px 12px rgba(0,0,0,.65);
 }
 
 .content-title {
@@ -84,4 +80,7 @@
   margin-bottom: 10px;
 }
 
+.portfolio-link:hover{
+  font-weight: bold;
+}
 </style>

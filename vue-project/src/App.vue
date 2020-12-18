@@ -27,6 +27,20 @@ h2 {
   color: #45a342;
 }
 
+.title-header {
+  height: auto;
+  display: flex;
+  justify-content: start;
+}
+
+.title {
+  font-size: 4em;
+}
+
+.bluelink {
+  color: #039be5;
+}
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

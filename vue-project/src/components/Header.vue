@@ -60,10 +60,15 @@ ul {
   padding: 12px;
 }
 .header-link:hover {
-  background-color: rgb(255, 255, 255, .8);
+  background-color: rgba(52, 180, 58, 0.8);
 }
+
 a {
-  text-decoration: none;
-  color: #585858;
+ text-decoration: none;
+ color: #1d1d1d;
+}
+
+.right-header a:hover {
+ color: #fff;
 }
 </style>
