@@ -182,7 +182,7 @@ a, span {
 
 .about-wrapper {
   width: 90vw;
-  height: 275vh;
+  height: 280vh;
   margin: 10px auto;
 }
 
@@ -240,7 +240,7 @@ a, span {
 
 .right-content {
   width: 60%;
-  height: 217%;
+  height: 260vh;
   background: #fff;
   border-radius: 6px;
   box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.02);
