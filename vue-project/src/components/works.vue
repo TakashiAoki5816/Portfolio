@@ -83,4 +83,27 @@
 .portfolio-link:hover{
   font-weight: bold;
 }
+
+@media (max-width: 480px) {
+  .works-wrapper {
+    height: 100vh;
+  }
+
+  .content-wrapper {
+    display: block;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  .content-image img {
+    width: 300px;
+  }
+
+  .content-image img:hover {
+    width: 330px;
+  }
+
+}
 </style>
