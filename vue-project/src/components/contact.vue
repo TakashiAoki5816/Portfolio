@@ -49,8 +49,20 @@
 }
 
 @media (max-width: 480px) {
+  .contact-wrapper {
+    height: 90vh;
+  }
+
+  .contacts {
+    height: 73vh;
+  }
+
   .Contact-title {
     font-size: 1.3em;
+  }
+
+  .contact-content {
+    padding: 5px;
   }
 }
 </style>
