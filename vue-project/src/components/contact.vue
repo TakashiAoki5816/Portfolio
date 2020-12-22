@@ -2,7 +2,7 @@
   <div class="contact-wrapper">
     <div class="title-header">
       <div class="title">
-        <h2>Contact</h2>
+        <h2 class="Contact-title">Contact</h2>
       </div>
     </div>
     <img src="../assets/profile-img.png" class="contact-img">
@@ -36,5 +36,11 @@
 
 .twitter-link {
   margin-top: 20px;
+}
+
+@media (max-width: 480px) {
+  .Contact-title {
+    font-size: 1.3em;
+  }
 }
 </style>
