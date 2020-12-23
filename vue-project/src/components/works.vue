@@ -49,9 +49,12 @@
 }
 
 .content-wrapper {
+  background-color: #fff;
   width: 100%;
-  height: 75%;
+  height: 78%;
   display: flex;
+  border-radius: 6px;
+  box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.02);
 }
 
 .content {
@@ -82,5 +85,30 @@
 
 .portfolio-link:hover{
   font-weight: bold;
+}
+
+@media (max-width: 480px) {
+  .works-wrapper {
+    height: 105vh;
+  }
+
+  .content-wrapper {
+    display: block;
+    height: 83%;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  .content-image img {
+    width: 300px;
+    margin-top: 30px;
+  }
+
+  .content-image img:hover {
+    width: 330px;
+  }
+
 }
 </style>

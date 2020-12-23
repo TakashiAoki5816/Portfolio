@@ -38,4 +38,24 @@
   font-weight: bold;
   color: #fff;
 }
+
+@media (max-width: 480px) {
+  .home-wrapper {
+    height: 79vh;
+    margin-top: 100px;
+  }
+
+  .main-img {
+    height: 65vh;
+  }
+
+  .welcome {
+    top: 50%;
+    left: 50%;
+  }
+
+  .welcome h1 {
+    font-size: 1.8em;
+  }
+}
 </style>

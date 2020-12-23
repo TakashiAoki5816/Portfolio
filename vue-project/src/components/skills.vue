@@ -15,10 +15,10 @@
           <frontend></frontend>
         </div>
         <div class="backend">
-        <backend></backend>
+          <backend></backend>
         </div>
         <div class="depops">
-        <depops></depops>
+          <depops></depops>
         </div>
       </div>
       <div class="skills-explanation">
@@ -81,6 +81,30 @@ export default {
   text-align: left;
   margin-top: 40px;
   padding: 20px;
+}
+
+@media (max-width: 480px) {
+  .skills-wrapper {
+    width: 90%;
+    height: 230vh;
+  }
+
+  .skills-charts {
+    height: 205vh;
+  }
+
+  .radar-charts {
+    width: 50vw;
+    display: block;
+  }
+
+  .frontend {
+    margin: 0;
+  }
+
+  .backend {
+    margin: 0;
+  }
 }
 
 </style>

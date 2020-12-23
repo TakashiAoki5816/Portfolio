@@ -283,4 +283,40 @@ a, span {
   border-radius: 100%;
 }
 
+@media (max-width: 480px) {
+  .about-wrapper {
+    height: 590vh;
+  }
+
+  .Content {
+    height: auto;
+    display: block;
+  }
+
+  .left-content {
+    width: 100%;
+  }
+
+  .profile-title {
+    margin: 5px 5px 5px 20px;
+  }
+
+  .right-content {
+    width: 100%;
+    height: auto;
+  }
+
+  .History {
+    margin: 10px 0 10px 20px;
+    color: #4a4a4a;
+  }
+
+  .timeline {
+    padding: 10px;
+  }
+
+  .timeline-content {
+    width: 54%;
+  }
+}
 </style>
