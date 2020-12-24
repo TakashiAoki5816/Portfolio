@@ -2,7 +2,7 @@
   <header>
     <div class= "header">
       <div class= "left-header">
-        <router-link to="/Home"><img src="../assets/logo.png"></router-link>
+        <router-link to="/"><img src="../assets/logo.png"></router-link>
       </div>
       <ul class="right-header">
         <router-link to="/About">
