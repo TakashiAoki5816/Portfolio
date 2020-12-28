@@ -285,7 +285,7 @@ a, span {
 
 @media (max-width: 480px) {
   .about-wrapper {
-    height: 590vh;
+    height: auto;
   }
 
   .Content {

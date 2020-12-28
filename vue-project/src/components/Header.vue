@@ -85,10 +85,13 @@ a {
 }
 
 @media (max-width: 480px) {
+  header {
+    height: 153px;
+  }
+
   .header {
     display: block;
     height: auto;
-    font-size: 2５px;
   }
 
   .right-header {
