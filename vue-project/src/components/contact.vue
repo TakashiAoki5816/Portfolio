@@ -50,6 +50,7 @@
 
 @media (max-width: 480px) {
   .contact-wrapper {
+    width: 100vw;
     height: 90vh;
   }
 

@@ -308,6 +308,10 @@ a, span {
     height: auto;
   }
 
+  .mytwitter {
+    margin-bottom: 20px;
+  }
+
   .History {
     margin: 10px 0 10px 20px;
     color: #4a4a4a;

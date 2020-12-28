@@ -85,7 +85,7 @@ export default {
 
 @media (max-width: 480px) {
   .skills-wrapper {
-    width: 90%;
+    width: 100vw;
     height: auto;
   }
 
