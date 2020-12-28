@@ -59,6 +59,7 @@
 
   .Contact-title {
     font-size: 1.3em;
+    line-height: 1.6em;
   }
 
   .contact-content {

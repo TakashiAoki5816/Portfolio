@@ -173,6 +173,7 @@ a, span {
 
 .Niwaai-title {
   color: #398a36;
+  font-weight: bold;
 }
 
 .Niwaai-content {
@@ -285,6 +286,7 @@ a, span {
 
 @media (max-width: 480px) {
   .about-wrapper {
+    width: 100vw;
     height: auto;
   }
 
