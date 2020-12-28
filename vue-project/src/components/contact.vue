@@ -64,7 +64,8 @@
   }
 
   .contact-content {
-    padding: 5px;
+    padding: 8px;
+    font-size: 16px;
   }
 }
 </style>
