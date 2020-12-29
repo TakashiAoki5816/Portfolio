@@ -85,25 +85,25 @@ export default {
 
 @media (max-width: 480px) {
   .skills-wrapper {
-    width: 90%;
-    height: 230vh;
+    width: 100vw;
+    height: auto;
   }
 
   .skills-charts {
-    height: 205vh;
+    height: 190vh;
   }
 
   .radar-charts {
-    width: 50vw;
+    width: 100vw;
     display: block;
   }
 
   .frontend {
-    margin: 0;
+    margin: 0 0 20px 14px;
   }
 
   .backend {
-    margin: 0;
+    margin: 0 5px 20px 0;
   }
 }
 

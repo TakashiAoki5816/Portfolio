@@ -50,19 +50,22 @@
 
 @media (max-width: 480px) {
   .contact-wrapper {
-    height: 90vh;
+    width: 100vw;
+    height: 88vh;
   }
 
   .contacts {
-    height: 73vh;
+    height: 70vh;
   }
 
   .Contact-title {
     font-size: 1.3em;
+    line-height: 1.6em;
   }
 
   .contact-content {
-    padding: 5px;
+    padding: 8px;
+    font-size: 16px;
   }
 }
 </style>

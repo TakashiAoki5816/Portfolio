@@ -8,7 +8,7 @@ export default {
     return {
       type: 'radar',
       data: {
-        labels: ['Linux', 'Docker', 'AWS', 'GitHub'],
+        labels: ['Linux', 'AWS', 'Docker', 'GitHub'],
         datasets: [
           {
             label: 'DepOps',

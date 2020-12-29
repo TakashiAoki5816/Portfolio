@@ -3,7 +3,7 @@
     <div class= "footer">
       <p>
         <span>Aoki Takashi's Portfolio</span> by
-        <a href="https://twitter.com/arfaben__5816">@arfaben__5816</a>
+        <a href="https://twitter.com/arfaben__5816" class="bluelink" target="_blank" rel="noopener noreferrer">@arfaben__5816</a>
       </p>
     </div>
   </footer>
@@ -22,11 +22,12 @@
 .footer span {
   font-size: 22px;
   font-weight: bold;
-  color: rgb(90, 90, 90);
+  color: rgb(51, 51, 51);
 }
 
-.footer a {
-  color: #3273dc;
+@media (max-width: 480px) {
+  .footer span {
+    font-size: 18px;
+  }
 }
-
 </style>

@@ -5,26 +5,30 @@
         <router-link to="/"><img src="../assets/logo.png"></router-link>
       </div>
       <ul class="right-header">
-        <router-link to="/About">
-          <li class="header-link">
-            About
-          </li>
-        </router-link>
-        <router-link to="/Works">
-          <li class="header-link">
-            Works
-          </li>
-        </router-link>
-        <router-link to="/Skills">
-          <li class="header-link">
-            Skills
-          </li>
-        </router-link>
-        <router-link to="/Contact">
-          <li class="header-link">
-            Contact
-          </li>
-        </router-link>
+        <div class="header-component">
+          <router-link to="/About">
+            <li class="header-link">
+              About
+            </li>
+          </router-link>
+          <router-link to="/Works">
+            <li class="header-link">
+              Works
+            </li>
+          </router-link>
+        </div>
+        <div class="header-component">
+          <router-link to="/Skills">
+            <li class="header-link">
+              Skills
+            </li>
+          </router-link>
+          <router-link to="/Contact">
+            <li class="header-link">
+              Contact
+            </li>
+          </router-link>
+        </div>
       </ul>
     </div>
   </header>
@@ -39,6 +43,7 @@ header {
   height: 66px;
   width: 100%;
 }
+
 .header {
   width: 100%;
   height: 66px;
@@ -49,12 +54,19 @@ header {
   align-items: center;
   background-color: rgba(255, 255, 255, 0.8);
 }
+
 .right-header {
   display: flex;
 }
+
+.header-component {
+  display: flex;
+}
+
 ul {
   list-style: none;
 }
+
 .header-link {
   width: 140px;
   padding: 12px;
@@ -70,5 +82,36 @@ a {
 
 .right-header a:hover {
  color: #fff;
+}
+
+@media (max-width: 480px) {
+  header {
+    height: 153px;
+  }
+
+  .header {
+    display: block;
+    height: auto;
+  }
+
+  .right-header {
+    width: 100%;
+    height: auto;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  .header-component {
+    display: block;
+    width: 100%;
+  }
+
+  .header-link {
+    width: 100%;
+    padding: 0;
+  }
 }
 </style>

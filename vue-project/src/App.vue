@@ -48,4 +48,10 @@ h2 {
   text-align: center;
   background: url("../src/assets/background.jpg");
 }
+
+@media (max-width: 480px) {
+  .title-header {
+    margin-left: 10px;
+  }
+}
 </style>

@@ -173,6 +173,7 @@ a, span {
 
 .Niwaai-title {
   color: #398a36;
+  font-weight: bold;
 }
 
 .Niwaai-content {
@@ -285,7 +286,8 @@ a, span {
 
 @media (max-width: 480px) {
   .about-wrapper {
-    height: 590vh;
+    width: 100vw;
+    height: auto;
   }
 
   .Content {
@@ -304,6 +306,10 @@ a, span {
   .right-content {
     width: 100%;
     height: auto;
+  }
+
+  .mytwitter {
+    margin-bottom: 20px;
   }
 
   .History {

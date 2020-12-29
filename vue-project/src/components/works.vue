@@ -8,7 +8,7 @@
   <div class="content-wrapper">
     <div class="content">
       <div class="content-image">
-        <a href="https://www.niwaai.com/" target="_blank" rel="noopener noreferrer"><img src="../assets/portfolio.png"></a>
+        <a href="https://ta-portfolio-site.netlify.app/" target="_blank" rel="noopener noreferrer"><img src="../assets/portfolio.png"></a>
       </div>
       <div class="content-title">
         <h4>Aoki Takashi's Portfolio</h4>
@@ -17,7 +17,7 @@
         <p>Vue.jsでSPAのポートフォリオサイト</p>
       </div>
       <div class="content-github">
-        <a href="https://github.com/TakashiAoki5816/Portfolio" target="_blank" class="portfolio-link" rel="noopener noreferrer">Github</a>
+        <a href="https://github.com/TakashiAoki5816/Portfolio" target="_blank" class="portfolio-github" rel="noopener noreferrer">Github</a>
       </div>
     </div>
     <div class="content">
@@ -31,7 +31,7 @@
         <p>「あなたのお気に入りの日本庭園に出会おう」<br>をコンセプトにした庭園写真共有サイト</p>
       </div>
       <div class="content-github">
-        <a href="https://github.com/TakashiAoki5816/niwaai" target="_blank" class="portfolio-link" rel="noopener noreferrer">Github</a>
+        <a href="https://github.com/TakashiAoki5816/niwaai" target="_blank" class="portfolio-github" rel="noopener noreferrer">Github</a>
       </div>
     </div>
   </div>
@@ -83,12 +83,13 @@
   margin-bottom: 10px;
 }
 
-.portfolio-link:hover{
+.portfolio-github:hover{
   font-weight: bold;
 }
 
 @media (max-width: 480px) {
   .works-wrapper {
+    width: 100vw;
     height: 105vh;
   }
 

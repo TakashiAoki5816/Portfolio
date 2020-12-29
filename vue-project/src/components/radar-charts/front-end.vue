@@ -8,7 +8,7 @@ export default {
     return {
       type: 'radar',
       data: {
-        labels: ['HTML/CSS', 'JavaScripts', 'JQuery', 'Vue.js'],
+        labels: ['HTML/CSS', 'JQuery', 'JavaScripts', 'Vue.js'],
         datasets: [
           {
             label: 'Front-end',
