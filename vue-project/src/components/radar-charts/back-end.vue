@@ -8,7 +8,7 @@ export default {
     return {
       type: 'radar',
       data: {
-        labels: ['Ruby/Ruby on Rails', 'PHP', 'Java', 'MySQL'],
+        labels: ['Ruby/Ruby on Rails', 'Java', 'PHP', 'MySQL'],
         datasets: [
           {
             label: 'Back-end',
