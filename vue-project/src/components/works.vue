@@ -8,7 +8,7 @@
   <div class="content-wrapper">
     <div class="content">
       <div class="content-image">
-        <a href="https://www.niwaai.com/" target="_blank" rel="noopener noreferrer"><img src="../assets/portfolio.png"></a>
+        <a href="https://ta-portfolio-site.netlify.app/" target="_blank" rel="noopener noreferrer"><img src="../assets/portfolio.png"></a>
       </div>
       <div class="content-title">
         <h4>Aoki Takashi's Portfolio</h4>

@@ -13,7 +13,9 @@
 .home-wrapper {
   width: 100vw;
   height: 86vh;
-  background-color: rgb(78, 218, 78);
+  background: -moz-linear-gradient(65deg, #45f13f, #e6ff78);
+  background: -webkit-linear-gradient(65deg, #45f13f, #e6ff78);
+  background: linear-gradient(25deg, #45f13f, #e6ff78);
 }
 
 .welcome {
