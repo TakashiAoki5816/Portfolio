@@ -51,11 +51,11 @@
 @media (max-width: 480px) {
   .contact-wrapper {
     width: 100vw;
-    height: 90vh;
+    height: 88vh;
   }
 
   .contacts {
-    height: 73vh;
+    height: 70vh;
   }
 
   .Contact-title {
