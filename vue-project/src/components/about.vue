@@ -322,7 +322,7 @@ a, span {
   }
 
   .timeline-content {
-    width: 54%;
+    width: 62%;
   }
 }
 </style>
