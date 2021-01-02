@@ -45,7 +45,7 @@ export default {
 <style>
 .skills-wrapper {
   width: 90vw;
-  height: 105vh;
+  height: 90vh;
   margin: 10px auto;
 }
 
@@ -77,7 +77,7 @@ export default {
 }
 
 .skills-explanation {
-  height: 70px;
+  height: auto;
   text-align: left;
   margin-top: 40px;
   padding: 20px;
@@ -90,7 +90,7 @@ export default {
   }
 
   .skills-charts {
-    height: 190vh;
+    height: auto;
   }
 
   .radar-charts {
