@@ -96,6 +96,7 @@
   .content-wrapper {
     display: block;
     height: 90%;
+    padding-bottom: 20px;
   }
 
   .content {
@@ -110,6 +111,5 @@
   .content-image img:hover {
     width: 330px;
   }
-
 }
 </style>

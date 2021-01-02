@@ -306,6 +306,7 @@ a, span {
   .right-content {
     width: 100%;
     height: auto;
+    padding-bottom: 50px;
   }
 
   .mytwitter {
