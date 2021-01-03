@@ -1,5 +1,7 @@
 # Aoki Takashi's Portfolio（ポートフォリオサイト）
 
+![portfolio](https://user-images.githubusercontent.com/56289802/103481552-18aee580-4e1f-11eb-80be-f3d356da6917.png)
+
 ## 概要
 
 Vue.js を用いた SPA のポートフォリオサイトです。<br>
