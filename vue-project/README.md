@@ -1,30 +1,23 @@
-# vue-project
+# Aoki Takashi's Portfolio（ポートフォリオサイト）
 
-> A Vue.js project
+## 概要
 
-## Build Setup
+Vue.js を用いた SPA のポートフォリオサイトです。<br>
+vue-cli、vue-router、コンポーネントを用いて制作しました。<br>
+About、Works、Skills、Contact の 4 点で構成されています。
 
-``` bash
-# install dependencies
-npm install
+## URL
 
-# serve with hot reload at localhost:8080
-npm run dev
+https://ta-portfolio-site.netlify.app
 
-# build for production with minification
-npm run build
+## 使用技術
 
-# build for production and view the bundle analyzer report
-npm run build --report
+- タイムライン（CSS）
+- Twitter 埋め込み（vue-tweet-embed）
+- レーダーチャート（vue-chart.js）
 
-# run unit tests
-npm run unit
+## バージョン
 
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+- npm 6.14.4
+- vueCLI 2.9.6
+- vue 2.6.12
