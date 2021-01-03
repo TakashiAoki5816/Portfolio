@@ -61,8 +61,8 @@
   }
 
   .Contact-title {
-    font-size: 1.3em;
-    line-height: 1.6em;
+    font-size: 1.4em;
+    line-height: 1.5em;
   }
 
   .contact-img {
