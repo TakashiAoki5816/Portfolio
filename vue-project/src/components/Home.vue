@@ -33,6 +33,7 @@
 @media (max-width: 480px) {
   .home-wrapper {
     height: 76vh;
+    position: relative;
   }
 
   .main-img {
@@ -40,7 +41,9 @@
   }
 
   .welcome {
-    padding-top: 250px;
+    position: absolute;
+    top: 40%;
+    padding: 0;
   }
 
   .welcome h1 {

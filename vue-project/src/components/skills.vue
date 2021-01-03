@@ -45,12 +45,13 @@ export default {
 <style>
 .skills-wrapper {
   width: 90vw;
-  height: 105vh;
+  height: auto;
   margin: 10px auto;
 }
 
 .skills-charts {
   background-color: #fff;
+  padding-bottom: 20px;
   border-radius: 6px;
   box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.02);
 }
@@ -77,7 +78,7 @@ export default {
 }
 
 .skills-explanation {
-  height: 70px;
+  height: auto;
   text-align: left;
   margin-top: 40px;
   padding: 20px;
@@ -86,11 +87,10 @@ export default {
 @media (max-width: 480px) {
   .skills-wrapper {
     width: 100vw;
-    height: auto;
   }
 
   .skills-charts {
-    height: 190vh;
+    height: auto;
   }
 
   .radar-charts {

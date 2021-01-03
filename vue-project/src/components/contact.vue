@@ -51,19 +51,26 @@
 @media (max-width: 480px) {
   .contact-wrapper {
     width: 100vw;
-    height: 88vh;
+    height: auto;
+    margin: 10px auto 20px auto;
   }
 
   .contacts {
-    height: 70vh;
+    height: auto;
+    padding-bottom: 20px;
   }
 
   .Contact-title {
-    font-size: 1.3em;
-    line-height: 1.6em;
+    font-size: 1.4em;
+    line-height: 1.5em;
+  }
+
+  .contact-img {
+    margin-top: 30px;
   }
 
   .contact-content {
+    margin-top: 20px;
     padding: 8px;
     font-size: 16px;
   }

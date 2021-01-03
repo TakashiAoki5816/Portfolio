@@ -59,7 +59,7 @@
 
 .content {
   width: 50%;
-  height: 320px;
+  height: auto;
   margin: auto 0;
 }
 
@@ -90,12 +90,13 @@
 @media (max-width: 480px) {
   .works-wrapper {
     width: 100vw;
-    height: 105vh;
+    height: auto;
   }
 
   .content-wrapper {
     display: block;
-    height: 83%;
+    height: 90%;
+    padding-bottom: 20px;
   }
 
   .content {
@@ -110,6 +111,5 @@
   .content-image img:hover {
     width: 330px;
   }
-
 }
 </style>

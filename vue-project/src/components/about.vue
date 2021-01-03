@@ -137,9 +137,15 @@
           </div>
         </li>
         <li>
-          <p class="timeline-date">2020年11月（現在）</p>
+          <p class="timeline-date">2020年11月</p>
           <div class="timeline-content">
             <p>Vue.jsでSPAのポートフォリオサイトを制作開始</p>
+          </div>
+        </li>
+        <li>
+          <p class="timeline-date">2021年1月</p>
+          <div class="timeline-content">
+            <p><span class="Niwaai-content">ポートフォリオサイト</span>が完成</p>
           </div>
         </li>
       </ul>
@@ -306,6 +312,7 @@ a, span {
   .right-content {
     width: 100%;
     height: auto;
+    padding-bottom: 50px;
   }
 
   .mytwitter {
@@ -322,7 +329,7 @@ a, span {
   }
 
   .timeline-content {
-    width: 54%;
+    width: 62%;
   }
 }
 </style>
