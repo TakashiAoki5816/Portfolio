@@ -45,7 +45,7 @@ export default {
 <style>
 .skills-wrapper {
   width: 90vw;
-  height: 90vh;
+  height: auto;
   margin: 10px auto;
 }
 
@@ -87,7 +87,6 @@ export default {
 @media (max-width: 480px) {
   .skills-wrapper {
     width: 100vw;
-    height: auto;
   }
 
   .skills-charts {
