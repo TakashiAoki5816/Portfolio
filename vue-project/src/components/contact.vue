@@ -2,7 +2,9 @@
   <div class="contact-wrapper">
     <div class="title-header">
       <div class="title">
-        <h2 class="Contact-title">Contact</h2>
+        <h2 class="Contact-title">
+          {{title}}
+        </h2>
       </div>
     </div>
     <div class="contacts">
@@ -17,6 +19,13 @@
 </template>
 
 <script>
+export default {
+  data () {
+    return {
+      title: 'Contact'
+    }
+  }
+}
 </script>
 
 <style>

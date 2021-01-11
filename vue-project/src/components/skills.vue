@@ -2,7 +2,9 @@
   <div class="skills-wrapper">
     <div class="title-header">
       <div class="title">
-        <h2>Skills</h2>
+        <h2>
+          {{title}}
+        </h2>
       </div>
     </div>
     <div class="skills-charts">
@@ -38,6 +40,11 @@ export default {
     frontend,
     backend,
     depops
+  },
+  data () {
+    return {
+      title: 'Skills'
+    }
   }
 }
 </script>

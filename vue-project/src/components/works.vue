@@ -2,7 +2,9 @@
 <div class="works-wrapper">
   <div class="title-header">
     <div class="title">
-      <h2>Works</h2>
+      <h2>
+        {{Works}}
+      </h2>
     </div>
   </div>
   <div class="content-wrapper">
@@ -39,6 +41,13 @@
 </template>
 
 <script>
+export default {
+  data () {
+    return {
+      title: 'Works'
+    }
+  }
+}
 </script>
 
 <style>

@@ -2,7 +2,9 @@
 <div class="about-wrapper">
   <div class="title-header">
     <div class="title">
-      <h2>About</h2>
+      <h2>
+        {{title}}
+      </h2>
     </div>
   </div>
   <div class="Content">
@@ -162,7 +164,8 @@ export default {
   },
   data: function () {
     return {
-      user_id: 'arfaben__5816'
+      user_id: 'arfaben__5816',
+      title: 'About'
     }
   }
 }
