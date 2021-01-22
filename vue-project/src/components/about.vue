@@ -147,7 +147,8 @@
         <li>
           <p class="timeline-date">2021年1月</p>
           <div class="timeline-content">
-            <p><span class="Niwaai-content">ポートフォリオサイト</span>が完成</p>
+            <p><span class="Niwaai-content">ポートフォリオサイト</span>が完成</p><br>
+            <p>PHPの学習を開始</p>
           </div>
         </li>
       </ul>
